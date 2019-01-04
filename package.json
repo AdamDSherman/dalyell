@@ -1,0 +1,25 @@
+{
+  "name": "dalyell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamDSherman/dalyell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamDSherman/dalyell/issues"
+  },
+  "homepage": "https://github.com/AdamDSherman/dalyell#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "vinyl-ftp": "^0.6.1"
+  }
+}
