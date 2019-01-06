@@ -1,0 +1,10 @@
+.gallery-grid {
+	&__item {
+		background-color: $background;
+		max-height: 300px;
+
+		img {
+			max-width: 100%;
+		}
+	}
+}

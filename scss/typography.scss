@@ -4,3 +4,16 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+a {
+	color: $highlight;
+	text-decoration: none;
+
+	&:hover {
+		color: $highlight;
+		text-decoration: underline;
+	}
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Open Sans', sans-serif;
+}
