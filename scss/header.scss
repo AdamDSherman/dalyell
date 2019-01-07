@@ -1,9 +1,15 @@
 .header {
+	&--overlay {
+		background-color: $primary-light;
+		position: absolute;
+		width: 100%;
+	}
 
 	&__nav {
 	  display: flex;
 	  align-items: center;
 	  justify-content: center;
+	  font-family: 'Open Sans', sans-serif;
 		font-size: .8rem;
 		font-weight: bold;
 		text-transform: uppercase;
