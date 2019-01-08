@@ -1,6 +1,6 @@
 body {
   color: #000;
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif; } 
 
 a {
   color: #BF1E2C;
@@ -55,9 +55,13 @@ body {
 .gallery-grid__item {
   font-size: .9rem;
   font-weight: 200;
+  padding: 1rem;
   text-align: center; }
   .gallery-grid__item img {
     max-width: 100%; }
 
 footer {
-  font-size: .8rem; }
+  background-color: #F1F1F1;
+  color: #585e71;
+  font-size: .7rem;
+  padding: 1.2rem 0; }
