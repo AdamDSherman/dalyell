@@ -1,17 +1,29 @@
 .header {
+
 	&--overlay {
 		background-color: $primary-light;
 		position: absolute;
 		width: 100%;
 	}
 
+	&__search-bar {
+		background-color: $primary-dark;
+		color: $primary-light;
+		min-height: 30px;
+	}
+
+	&__logo {
+		padding: 5px 0;
+	}
+
 	&__nav {
 	  display: flex;
 	  align-items: center;
-	  justify-content: center;
+	  justify-content: flex-end;
 	  font-family: 'Open Sans', sans-serif;
 		font-size: .8rem;
 		font-weight: bold;
+		letter-spacing: 2px;
 		text-transform: uppercase;
 
 		ul {
@@ -20,7 +32,7 @@
 
 			li {
 				display: inline-block;
-				padding: 10px;
+				padding: 10px 15px;
 			}
 		}
 	}
